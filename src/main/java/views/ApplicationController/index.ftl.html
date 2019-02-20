@@ -1,0 +1,53 @@
+<#import "../layout/defaultLayout.ftl.html" as layout>
+<@layout.myLayout "Home page">
+
+
+<h1>BATTLESHIP</h1>
+
+
+<div id="show" class="hidden">
+
+    <table id="opponent"></table>
+    <p1 id = "oLabel">Opponent's Board</p1>
+    <p1 id ="instruction2">Continue to attack your opponent until there is a winner</p1>
+
+</div>
+<!--<table id="opponent" class="battleGrid"></table>-->
+
+
+<p1 id = "pLabel">Your Board</p1>
+<br>
+
+<div id = "player_main">
+  <table id="player"></table>
+  <ul>
+      <!--<li id="hidden2"><button id="place_minesweeper">Place Minesweeper</button></li>-->
+      <li ><input class="hidden2" id="place_minesweeper" type="submit" value=""></li>
+      <!--<li id="hidden3"><button id="place_destroyer">Place Destroyer</button></li>-->
+      <li ><input class="hidden3" id="place_destroyer" type="submit" value=""></li>
+      <!--<li id="hidden4"><button id="place_battleship">Place Battleship</button></li>-->
+      <li ><input class="hidden4" id="place_battleship" type="submit" value=""></li>
+      <li id="hidden5"><input type="checkbox" id="is_vertical">Vertical</input></li>
+  </ul>
+
+</div>
+
+
+
+<!--<table id="player" class="battleGrid"></table>-->
+
+<p1 id="instruction1"> Please place your ships and then click start to begin a game</p1>
+
+<button id ="show_opponent">start game</button>
+
+
+
+
+<!--<input class="myButton" type="submit" value="">-->
+
+<script type="text/javascript" src="/assets/game.js"></script>
+<script>
+    initGame();
+</script>
+
+</@layout.myLayout>

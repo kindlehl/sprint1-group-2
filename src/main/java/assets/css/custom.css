@@ -1,0 +1,182 @@
+/* Add additional stylesheets below
+-------------------------------------------------- */
+
+#player{
+
+  float: left;
+    border: 1px solid black;
+    border-spacing: 0px;
+}
+
+#player tr {
+  /*display: inline;*/
+    border: 1px solid black;
+    height: 32px;
+}
+
+#player td {
+  /*display: inline;*/
+    border: 1px solid black;
+    width: 32px;
+}
+
+#opponent{
+  float:left;
+    border: 1px solid red;
+    border-spacing: 0px;
+    margin-right: 20px;
+}
+
+#opponent tr {
+    /*display: inline;*/
+    border: 1px solid red;
+    height: 32px;
+}
+
+#opponent td {
+    /*display: inline;*/
+    border: 1px solid red;
+    width: 32px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+
+/*
+.battleGrid #opponent{
+display:none;
+    border: 1px solid black;
+    border-spacing: 0px;
+}
+
+.battleGrid tr #opponent{
+    display: none;
+    border: 1px solid black;
+    height: 30px;
+}
+
+.battleGrid td #opponent{
+    display: none;
+    border: 1px solid black;
+    width: 30px;
+}
+*/
+/*
+#opponent{
+    visibility: hidden;
+}
+*/
+td:hover {
+    background-color: gray;
+}
+
+.placed {
+    background-color: gray;
+}
+
+.occupied {
+    background-color: black;
+}
+
+.hit {
+    background-color: orange;
+}
+
+.sink {
+    background-color: red;
+}
+
+.miss {
+    background-color: blue;
+}
+
+
+/*
+#hidden2{
+
+    display:block;
+  }
+*/
+/*#hidden3{
+    display:block;
+}
+*/
+#hidden4{
+    display:block;
+}
+
+#hidden5{
+    display:block;
+    margin-top: 20px;
+}
+
+#instruction1
+{
+    display:block;
+}
+
+#instruction2{
+  margin-left: 20px;
+}
+
+#show_opponent
+{
+    display:none;
+}
+
+#oLabel {
+  font-size: 20px;
+}
+
+#pLabel {
+  padding-bottom: 1px;
+  display:block;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.hidden2 {
+    display: inline;
+    background:url(Minesweeper.JPG) no-repeat;
+    cursor:pointer;
+    border:none;
+    width: 300px;
+    height: 120px;
+    padding-top: 0px;
+    bottom: 20px;
+}
+
+.hidden3 {
+    display: inline;
+    background:url(battleship2.JPG) no-repeat;
+    cursor:pointer;
+    border:none;
+    width: 300px;
+    height: 100px;
+}
+
+.hidden4 {
+    display: inline;
+    background:url(battleship3.JPG) no-repeat;
+    cursor:pointer;
+    border:none;
+    width: 300px;
+    height: 100px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+h1 {
+  float: right;
+  font-family: impact;
+  font-size: 100px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 100px;
+}
