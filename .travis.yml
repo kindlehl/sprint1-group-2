@@ -2,4 +2,4 @@ language: node_js
 node_js:
   - "iojs"
 script:
-  - mvn clean install
+  - mvn ninja:run
