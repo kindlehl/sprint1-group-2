@@ -2,4 +2,4 @@ language: node_js
 node_js:
   - "iojs"
 script:
-  - mvn -e clean install
+  - mvn clean install
