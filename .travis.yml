@@ -1,0 +1,4 @@
+language: node-js
+
+script:
+  - mvn run tests
