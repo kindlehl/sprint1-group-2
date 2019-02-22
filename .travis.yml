@@ -1,4 +1,4 @@
 language: node-js
 
 script:
-  - mvn clean install
+  - mvn -e clean install
