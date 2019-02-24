@@ -1,7 +1,8 @@
-package cs361.battleships.models;
+gackage cs361.battleships.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 @SuppressWarnings("unused")
 public class Square {
@@ -9,6 +10,7 @@ public class Square {
 	@JsonProperty private int row;
 	@JsonProperty private char column;
 	@JsonProperty private boolean hit = false;
+  @JsonProperty private boolean sonared = false;
 
 	public Square() {
 	}
@@ -44,6 +46,14 @@ public class Square {
 	public boolean isOutOfBounds() {
 		return row > 10 || row < 1 || column > 'J' || column < 'A';
 	}
+
+  public boolean isSonared() {
+    return sonared;
+  }
+
+  public boolean sonar() {
+    sonared = true;
+  }
 
 	public boolean isHit() {
 		return hit;
