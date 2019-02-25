@@ -3,6 +3,7 @@ package controllers;
 import com.google.inject.Singleton;
 import cs361.battleships.models.Game;
 import cs361.battleships.models.Ship;
+import cs361.battleships.models.SonarStatus;
 import ninja.Context;
 import ninja.Result;
 import ninja.Results;
@@ -38,5 +39,11 @@ public class ApplicationController {
         } else {
             return Results.badRequest();
         }
+    }
+
+    public Result ping(Context context, SonarStatus status) {
+      game = g.getGame();
+      //boolean result = gt
+      return Results.json().render(game);
     }
 }
