@@ -1,3 +1,5 @@
+language: java
+jdk: openjdkj11
 script:
   - mvn compile
   - mvn test
