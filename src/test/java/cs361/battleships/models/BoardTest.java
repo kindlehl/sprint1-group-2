@@ -72,7 +72,6 @@ public class BoardTest {
     public void testPlaceMultipleShipsOfSameType() {
         assertTrue(board.placeShip(new Ship("MINESWEEPER"), 1, 'A', true));
         assertFalse(board.placeShip(new Ship("MINESWEEPER"), 5, 'D', true));
-
     }
 
     @Test
@@ -81,6 +80,5 @@ public class BoardTest {
         assertTrue(board.placeShip(new Ship("BATTLESHIP"), 5, 'D', true));
         assertTrue(board.placeShip(new Ship("DESTROYER"), 6, 'A', false));
         assertFalse(board.placeShip(new Ship(""), 8, 'A', false));
-
     }
 }
