@@ -40,10 +40,10 @@ public class ApplicationController {
             return Results.badRequest();
         }
     }
-
-    public Result ping(Context context, SonarStatus status) {
-      game = g.getGame();
-      //boolean result = gt
-      return Results.json().render(game);
-    }
+    //Doesn't work since sonar wasn't implemented properly.
+    //public Result ping(Context context, SonarStatus status) {
+      //game = g.getGame();
+      ////boolean result = gt
+      //return Results.json().render(game);
+    //}
 }

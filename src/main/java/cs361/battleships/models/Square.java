@@ -1,4 +1,4 @@
-gackage cs361.battleships.models;
+package cs361.battleships.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -51,7 +51,7 @@ public class Square {
     return sonared;
   }
 
-  public boolean sonar() {
+  public void sonar() {
     sonared = true;
   }
 

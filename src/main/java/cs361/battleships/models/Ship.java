@@ -1,5 +1,7 @@
 package cs361.battleships.models;
 
+import cs361.battleships.models.SonarStatus;
+import cs361.battleships.models.AtackStatus;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.google.common.collect.Sets;

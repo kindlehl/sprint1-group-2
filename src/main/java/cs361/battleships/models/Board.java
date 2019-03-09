@@ -2,6 +2,7 @@ package cs361.battleships.models;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import cs361.battleships.models.AtackStatus;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;

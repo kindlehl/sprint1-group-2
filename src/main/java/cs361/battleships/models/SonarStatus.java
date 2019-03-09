@@ -1,6 +1,6 @@
 package cs361.battleships.models;
 
-public enum AtackStatus {
+public enum SonarStatus {
 
 	/**
 	 * If never hit with sonar

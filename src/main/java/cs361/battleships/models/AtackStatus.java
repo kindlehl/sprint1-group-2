@@ -26,6 +26,6 @@ public enum AtackStatus {
 	/**
 	 * The result if the coordinates given are invalid.
 	 */
-	INVALID,
+	INVALID
 
-}
+};
