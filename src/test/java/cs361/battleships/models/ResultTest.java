@@ -7,14 +7,15 @@ import static org.junit.Assert.*;
 public class ResultTest {
 
     @Test
-    public void testresultfunctions {
+    public void testresultfunctions() {
         
         Result result  = new Result();
      
-	assertTrue(result.setResult("HIT");
-	system.out.println(result.getResult());
+	    result.setResult(AtackStatus.HIT);
+        System.out.println(result.getResult());
 	
-	assertTrue(result.setResult("MISS");
-	system.out.println(result.getResult());
+	    result.setResult(AtackStatus.MISS);
+	    System.out.println(result.getResult());
 	
     }
+}
